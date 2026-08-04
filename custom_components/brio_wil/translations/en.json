@@ -1,0 +1,26 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "description": "Enter the local network address of your CCEI BRiO WiL pool light controller.",
+        "data": {
+          "host": "Host",
+          "port": "Port"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "[%key:common::config_flow::error::cannot_connect%]"
+    },
+    "abort": {
+      "already_configured": "[%key:common::config_flow::abort::already_configured%]"
+    }
+  },
+  "entity": {
+    "select": {
+      "sequence_speed": {
+        "name": "Sequence speed"
+      }
+    }
+  }
+}
